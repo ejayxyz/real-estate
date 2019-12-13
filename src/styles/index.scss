@@ -1,0 +1,68 @@
+@import './variables.scss';
+@import './element-ui.scss';
+@import '../views/layouts/components/Navbar/navbar.scss';
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-container{
+  margin-top: 6vh;
+  min-height: 100%;
+}
+
+.content-container {
+  margin-top: 5vh;
+}
+
+.el-input {
+  padding: 20px;
+  max-width: 55vh;
+}
+
+.category-image {
+    min-width: 100%;
+    float: none;
+    min-height: auto;
+    max-width: 100%;
+    max-height: auto;
+}
+.el-card {
+  min-height: 16vh;
+  min-width: 10vh;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.el-col {
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+
+
+@media only screen and (max-width: $screen-md-min) {
+ .el-card, .el-col, .el-row, .el-tab-pane ,.el-tabs {
+  float: left;
+}
+
+}

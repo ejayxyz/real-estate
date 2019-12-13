@@ -1,17 +1,14 @@
 <template>
   <div class="content-container">
-<br><br>    
-
+<br><br>
   <el-card :body-style="{ padding: '0px' }">
       <img src="@/assets/images/product.jpeg" class="prod-image">
       <div class="prod-header">
-    
       <div class="prod-seller">
       <h3><img src="@/assets/images/icons/profile.jpeg" class="prod-profile">  
       {{prodData.seller}}</h3>
       Trust Real Estate
       </div>
-    
       <h2 class="prod-stars"><i class="el-icon-star-on"></i>
       <i class="el-icon-star-on"></i>
       <i class="el-icon-star-on"></i>

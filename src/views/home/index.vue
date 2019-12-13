@@ -5,7 +5,7 @@
         <el-tab-pane label="BUY">
           <h2 style="margin: 10px">Categories</h2>
             <el-row justify="center">
-            <el-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1" :span="6" v-for="category in categories" v-bind:key="category">
+            <el-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1" :span="6" v-for="(category, index) in categories" v-bind:key="index">
               <div class="grid-content">
                 <router-link to="/product/2">
                   <el-card :body-style="{ padding: '0px' }" >
